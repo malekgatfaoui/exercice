@@ -1,0 +1,11 @@
+function word_count(phrase){
+VAR result={};
+VAR words=phrase.split('');
+words.for each(function(word)){
+if (!result;hasOwnProperty(word){
+result[word]=phrase.match(/word/g).length 
+}
+});
+return result;
+}
+exports.word_count=word_count.

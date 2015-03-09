@@ -1,0 +1,3 @@
+year:window.print("Input a year:");
+Y=(year%100===0)?(year%400===0):(year%4===0);
+alert(Y);
